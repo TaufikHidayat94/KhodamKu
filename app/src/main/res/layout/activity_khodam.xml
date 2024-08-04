@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_background"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        android:textAlignment="center"
+        android:hint="Data Khodam Pengguna"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="30sp"
+        android:padding="18dp" />
+
+    <TextView
+        android:id="@+id/nameKhodam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Lengkap"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:text="Name"/>
+
+    <TextView
+        android:id="@+id/nimKhodam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NIM"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:text="NIM"/>
+
+    <TextView
+        android:id="@+id/jenisKhodam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jenis Khodam"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:text="Jenis"/>
+
+
+</LinearLayout>
